@@ -1,0 +1,55 @@
+body{
+	background-color: #666;
+}
+section.wrapper{
+	position: relative;
+	width: 700px;
+	height: 300px;
+	border: 3px solid #555;
+	background-image: url(../img/forest.jpg);
+	overflow: hidden;
+}
+#gun{
+	position: absolute;
+	width: 150px;
+	height: 180px;
+	background-image: url(../img/gun.png);
+	bottom: -10px;
+	right: -55px;
+	z-index: 10;
+}
+#targetKill{
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	width: 65px;
+	height: 25px;
+	background-image: url(../img/bat.png);
+}
+#lvl{
+	color: red;
+}
+
+.points{
+	width: 700px;
+	border: 3px solid #777;
+	background-color: #fff;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.points li{
+	display: inline-block;
+	padding: 3px 5px;
+}
+.points li:nth-child(2n-1){
+	background-color: #353571;
+	color: #fff;
+}
+.points li p{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
